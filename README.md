@@ -5,7 +5,7 @@ In this project, I was responsible for creating a website that would showcase so
 1. Clone this repository into your terminal --->
 https://github.com/patrickpang23/Gateway-Project.git
 
-2. cd into the repository ---> cd Instagram-Redesign
+2. cd into the repository ---> cd Gateway-Project
 
 3. Install dependencies in terminal ---> npm install
 
