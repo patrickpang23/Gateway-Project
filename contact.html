@@ -1,98 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <script src="https://kit.fontawesome.com/beff56db6b.js" crossorigin="anonymous"></script>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
-      <title>Contact Page</title>
-      <link href="style.css" rel="stylesheet" type="text/css" />
-   </head>
-   <body>
-      <header>
-         <nav>
-            <div class='navigation'>
-               <a  href='index.html'> Home </a>
-               <a  href='todo.html' > Things To Do</a>
-               <a  href="contact.html"> Contact </a>
-            </div>
-         </nav>
-      </header>
-      <br>
-      <div class="contact-page"> <!-- IMPORTANT-bg color-->
-         <div class="contacts">
-            <h1> <Strong>Contact Us</Strong> </h1>
-            <br>
-            <p><b>Feel free to tell us more about yourself!</b></p>
-         </div>
-         <br>
-         <hr>
-         <br>
-         <form class="contact-form">   <!-- IMPORTANT-->
-            <table>
-               <tr>
-                  <td>
-                     First Name :
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                     <input placeholder="First Name" required>
-                  </td>
-               </tr>
-               <tr>
-                  <td>Last Name :</td>
-               </tr>
-               <tr>
-                  <td><input placeholder="Last Name" required>
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                     Phone Number
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                     <input placeholder="Phone Number" required>
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                     Email :
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                     <input placeholder="Email" required>
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                     Have any questions?
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                     <textarea placeholder="Leave Message Here..." rows="6" cols="30" required></textarea>
-                     <!-- IMPORTANT ATTRIBUTES-->
-                  </td>
-               </tr>
-               <tr>
-                  <td>
-                     <input type="submit" class="submit-button"> <!-- IMPORTANT-->
-                  </td>
-               </tr>
-            </table>
-         </form>
+  <head>
+    <script
+      src="https://kit.fontawesome.com/beff56db6b.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Contact Page</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navigation">
+          <a href="index.html"> Home </a>
+          <a href="todo.html"> Things To Do</a>
+          <a href="contact.html"> Contact </a>
+        </div>
+      </nav>
+    </header>
+    <br />
+    <div class="contact-page">
+      <!-- IMPORTANT-bg color-->
+      <div class="contacts">
+        <h1><strong>Contact Us</strong></h1>
+        <br />
+        <p><b>Feel free to tell us more about yourself!</b></p>
       </div>
-      <footer>
-            <p>&copy; 2021 Patrick Pang, All Rights Reserved</p>
-            <a href= "index.html"><img src="images/logo.png" alt="logo" class="logo"></a>
-            <!-- I= icon -->
-            <!-- &nbsp; is a way to add space in html file-->
-            <a href="https://www.youtube.com" aria-label="youtube"> <i class="fab fa-youtube"></i></a>&nbsp; | 
-            <a href="https://www.instagram.com" aria-label="instagram"> <i class="fab fa-instagram-square"></i></a> &nbsp;| 
-            <a href="https://www.pinterest.com" aria-label="pinterest"> <i class="fab fa-pinterest"></i></a>
-      </footer>
-   </body>
+      <br />
+      <hr />
+      <br />
+      <form class="contact-form">
+        <!-- IMPORTANT-->
+        <table>
+          <tr>
+            <td>First Name :</td>
+          </tr>
+          <tr>
+            <td>
+              <input class="contactInfo" placeholder="First Name" required />
+            </td>
+          </tr>
+          <tr>
+            <td>Last Name :</td>
+          </tr>
+          <tr>
+            <td>
+              <input class="contactInfo" placeholder="Last Name" required />
+            </td>
+          </tr>
+          <tr>
+            <td>Phone Number</td>
+          </tr>
+          <tr>
+            <td>
+              <input class="contactInfo" placeholder="Phone Number" required />
+            </td>
+          </tr>
+          <tr>
+            <td>Email :</td>
+          </tr>
+          <tr>
+            <td>
+              <input class="contactInfo" placeholder="Email" required />
+            </td>
+          </tr>
+          <tr>
+            <td>Have any questions?</td>
+          </tr>
+          <tr>
+            <td>
+              <textarea
+                class="textAreaContactInfo"
+                placeholder="Leave Message Here..."
+                rows="6"
+                cols="30"
+                required
+              ></textarea>
+              <!-- IMPORTANT ATTRIBUTES-->
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="submit" class="submit-button" />
+              <!-- IMPORTANT-->
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <footer>
+      <p class="copyright">&copy; 2021 Patrick Pang, All Rights Reserved</p>
+    </footer>
+  </body>
 </html>
